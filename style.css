@@ -1,7 +1,7 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .face {
@@ -52,19 +52,21 @@
 .lace-left {
   position: absolute;
   top: 25%;
-  left: -5%;
-  width: 50%;
+  left: 0%;
+  width: 35%;
   height: 10%;
   background-color: #000;
+  border-top-left-radius: 15px;
 }
 
 .lace-right {
   position: absolute;
   top: 25%;
-  right: -5%;
-  width: 50%;
+  right: 0%;
+  width: 35%;
   height: 10%;
   background-color: #000;
+  border-top-right-radius: 15px;
 }
 
 .mouth {
@@ -124,9 +126,9 @@
   border-bottom-left-radius: 50px;
 }
 
-.left-hand{
-    position: absolute;
-    width: 120px;
-    height: 20px;
-    background-color: red;
+.left-hand {
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  background-color: red;
 }
