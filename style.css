@@ -159,6 +159,50 @@
   background-color: #000;
 }
 
-.right-hand>.palm{
-    left: 0;
+.right-hand > .palm {
+  left: 0;
 }
+
+.hairs {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: none;
+  /* overflow: hidden; */
+}
+
+.hair1 {
+  position: absolute;
+  top: -40%;
+  left: 46%;
+  width: 4px;
+  height: 50%;
+  background-color: #000;
+}
+
+.hair2 {
+    position: absolute;
+    top: -40%;
+    left: 48%;
+    width: 4px;
+    height: 50%;
+    background-color: #000;
+  }
+
+  .hair3 {
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    width: 4px;
+    height: 50%;
+    background-color: #000;
+  }
+
+  .hair4 {
+    position: absolute;
+    top: -40%;
+    left: 52%;
+    width: 4px;
+    height: 50%;
+    background-color: #000;
+  }
