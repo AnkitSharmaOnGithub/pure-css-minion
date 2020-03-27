@@ -128,11 +128,37 @@
 
 .left-hand {
   position: absolute;
-  top: 62%;
+  top: 50%;
   left: -74%;
   width: 120px;
   height: 20px;
   background-color: #fbba13;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
   transform: rotate(156deg);
+  z-index: -1;
+}
+
+.right-hand {
+  position: absolute;
+  top: 40%;
+  right: -74%;
+  width: 120px;
+  height: 20px;
+  background-color: #fbba13;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  transform: rotate(156deg);
+  z-index: -1;
+}
+
+.palm {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 100%;
+  background-color: #000;
+}
+
+.right-hand>.palm{
+    left: 0;
 }
